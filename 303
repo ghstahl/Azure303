@@ -26,9 +26,13 @@ Implement NoSQL databases
  select appropriate CosmosDB APIs
  set up replicas in CosmosDB
 
-Azure Cosmos DB account, Database, Container, Request Unit (RU/s), Partition Key
+Azure Cosmos DB account, Database, Container, Request Unit (RU/s), Partition Key, Multi  Master Support, 
+Conflict Resolution(Last-Writer-Wins (LWW),Custom - User-defined function, Custom - Async), Muti Region writes, Manual/Automatic failover
+Consistency Level
 LAB: Creating an Azure Cosmos DB account 
-LAB: Creating your database and container
+LAB: Creating your database and container (Cosmos DB Account --> Data Explorer --> New Container)
+LAB: Replicate data in multiple regions (Cosmos DB Account --> Replicate Data Globally)
+LAB: Automatic/Manual Failover (Cosmos DB Account --> Replicate Data Globally --> Automatic/Manual failover)
 
 
 
