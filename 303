@@ -1,0 +1,16 @@
+
+
+>>> Implement storage accounts
+ select storage account options based on a use case
+ configure Azure Files and blob storage
+ configure network access to the storage account
+ implement Shared Access Signatures and access policies
+ implement Azure AD authentication for storage
+ manage access keys
+ implement Azure storage replication
+ implement Azure storage account failover
+
+
+>>> Implement virtual networking
+ implement VNet to VNet connections
+ implement VNet peering
