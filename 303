@@ -14,3 +14,24 @@
 >>> Implement virtual networking
  implement VNet to VNet connections
  implement VNet peering
+
+
+
+
+Implement and Manage Data Platforms (10-15%)
+
+*********************************************************
+Implement NoSQL databases
+ configure storage account tables
+ select appropriate CosmosDB APIs
+ set up replicas in CosmosDB
+
+Azure Cosmos DB account, Database, Container, Request Unit (RU/s), Partition Key
+LAB: Creating an Azure Cosmos DB account 
+LAB: Creating your database and container
+
+
+
+
+
+**********************************************************
