@@ -33,7 +33,8 @@ LAB: Creating an Azure Cosmos DB account
 LAB: Creating your database and container (Cosmos DB Account --> Data Explorer --> New Container)
 LAB: Replicate data in multiple regions (Cosmos DB Account --> Replicate Data Globally)
 LAB: Automatic/Manual Failover (Cosmos DB Account --> Replicate Data Globally --> Automatic/Manual failover)
-
+LAB:  Insert and query data in your Azure Cosmos DB database (Cosmos DB Account --> Data Explorer)
+LAB: Create an Azure Storage table in the Azure portal (Create Storage Account --> Create Table)
 
 
 
