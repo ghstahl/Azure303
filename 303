@@ -10,6 +10,8 @@
  implement Azure storage replication
  implement Azure storage account failover
 
+
+****************************************************************************
 >>>Implement VMs for Windows and Linux
  configure High Availability
  configure storage for VMs
@@ -17,6 +19,19 @@
  implement Azure Dedicated Hosts
  deploy and configure scale sets
  configure Azure Disk Encryption
+
+Exercise - Create a virtual machine
+Exercise - Sizing VMs
+Exercise - Deploy a scale set in the Azure portal 
+(Deploy - az vmss create )
+(Configure - az network lb probe create)
+(Configure - az network lb rule create (to configure the load balancer to route HTTP traffic to the instances in the scale set)) 
+
+Custom Script Extension - (az vmss extension set)
+
+
+
+****************************************************************************
 
 
 
