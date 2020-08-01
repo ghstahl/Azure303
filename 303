@@ -10,6 +10,15 @@
  implement Azure storage replication
  implement Azure storage account failover
 
+>>>Implement VMs for Windows and Linux
+ configure High Availability
+ configure storage for VMs
+ select virtual machine size
+ implement Azure Dedicated Hosts
+ deploy and configure scale sets
+ configure Azure Disk Encryption
+
+
 
 >>> Implement virtual networking
  implement VNet to VNet connections
