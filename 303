@@ -20,6 +20,12 @@
  deploy and configure scale sets
  configure Azure Disk Encryption
 
+OS Disk, Data Disk, Temporary Disk, Ephemeral Disk(to host a stateless workload,such as the business logic), Managed Disks,(Virtual hard disks in Azure are stored as page blobs in an Azure Storage account),
+(High Availability - Managed disks support 99.999% availability by storing data three times; Availability set & Availability Zones)
+Unmanaged Disks (An unmanaged disk, like a managed disk, is stored as a page blob in an Azure Storage account.),
+Throughput - Throughput measures the rate at which data can be moved onto the disk from the host computer and off the disk to the host computer. Throughput is also called data transfer rate
+(Azure Backup supports managed disks)
+
 Exercise - Create a virtual machine
 Exercise - Sizing VMs
 Exercise - Deploy a scale set in the Azure portal 
@@ -28,6 +34,9 @@ Exercise - Deploy a scale set in the Azure portal
 (Configure - az network lb rule create (to configure the load balancer to route HTTP traffic to the instances in the scale set)) 
 
 Custom Script Extension - (az vmss extension set)
+
+Exercise - Create a Windows virtual machine
+
 
 
 
