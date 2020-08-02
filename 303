@@ -20,6 +20,9 @@
  deploy and configure scale sets
  configure Azure Disk Encryption
 
+Host
+Azure Dedicated Hosts allow you to provision and manage a physical server within our data centers that are dedicated to your Azure subscription. A dedicated host gives you assurance that only VMs from your subscription are on the host, flexibility to choose VMs from your subscription that will be provisioned on the host, and the control of platform maintenance at the level of the host.
+
 OS Disk, Data Disk, Temporary Disk, Ephemeral Disk(to host a stateless workload,such as the business logic), Managed Disks,(Virtual hard disks in Azure are stored as page blobs in an Azure Storage account),
 (High Availability - Managed disks support 99.999% availability by storing data three times; Availability set & Availability Zones)
 Unmanaged Disks (An unmanaged disk, like a managed disk, is stored as a page blob in an Azure Storage account.),
