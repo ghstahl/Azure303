@@ -28,7 +28,7 @@ OS Disk, Data Disk, Temporary Disk, Ephemeral Disk(to host a stateless workload,
 Unmanaged Disks (An unmanaged disk, like a managed disk, is stored as a page blob in an Azure Storage account.),
 Throughput - Throughput measures the rate at which data can be moved onto the disk from the host computer and off the disk to the host computer. Throughput is also called data transfer rate
 (Azure Backup supports managed disks)
-
+)
 Exercise - Create a virtual machine
 Exercise - Sizing VMs
 Exercise - Deploy a scale set in the Azure portal 
@@ -39,6 +39,8 @@ Exercise - Deploy a scale set in the Azure portal
 Custom Script Extension - (az vmss extension set)
 
 Exercise - Create a Windows virtual machine
+Exercise - Deploy VMs to dedicated hosts using the portal
+(Create "Host Groups" -> Create "Dedicated Hosts" -> Craete VM)
 
 
 
