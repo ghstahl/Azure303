@@ -41,6 +41,7 @@ Custom Script Extension - (az vmss extension set)
 Exercise - Create a Windows virtual machine
 Exercise - Deploy VMs to dedicated hosts using the portal
 (Create "Host Groups" -> Create "Dedicated Hosts" -> Craete VM)
+Excercise - Move the VM to a dedicated host (VM -> Stop -> Configuration -> Choose Host group & Host --> Save)
 
 
 
