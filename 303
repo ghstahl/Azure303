@@ -46,6 +46,9 @@ Excercise - Move the VM to a dedicated host (VM -> Stop -> Configuration -> Choo
 
 Connect-AzAccount
 
+Excercise - Create an availability Set
+(You can create availability sets through the Azure portal in the disaster recovery section)
+
 
 
 
