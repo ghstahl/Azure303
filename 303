@@ -49,6 +49,15 @@ Connect-AzAccount
 Excercise - Create an availability Set
 (You can create availability sets through the Azure portal in the disaster recovery section)
 
+New-AzKeyVault,
+az keyvault create 
+Set-AzKeyVaultAccessPolicy
+az keyvault update
+Set-AzVmDiskEncryptionExtension 
+az vm encryption enable 
+Disable-AzVMDiskEncryption
+az vm encryption disable 
+
 
 
 
