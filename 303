@@ -57,6 +57,10 @@ Set-AzVmDiskEncryptionExtension
 az vm encryption enable 
 Disable-AzVMDiskEncryption
 az vm encryption disable 
+New-AzResourceGroup, New-AzVm, Get-AzVM, Get-AzVmDiskEncryptionStatus, New-AzKeyVault
+
+Exercise - Encrypt the VM disks with Azure Disk Encryption:
+(Create Key Vault -> Update Key Vault  to support Disk Encryption --> Encrypt VM using key stored in Key Vault)
 
 
 
