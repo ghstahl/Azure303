@@ -12,7 +12,7 @@
 
 
 ****************************************************************************
->>>Implement VMs for Windows and Linux
+>>>Implement VMs for Windows and Linux (DONE)
  configure High Availability
  configure storage for VMs
  select virtual machine size
@@ -20,15 +20,6 @@
  deploy and configure scale sets
  configure Azure Disk Encryption
 
-Host
-Azure Dedicated Hosts allow you to provision and manage a physical server within our data centers that are dedicated to your Azure subscription. A dedicated host gives you assurance that only VMs from your subscription are on the host, flexibility to choose VMs from your subscription that will be provisioned on the host, and the control of platform maintenance at the level of the host.
-
-OS Disk, Data Disk, Temporary Disk, Ephemeral Disk(to host a stateless workload,such as the business logic), Managed Disks,(Virtual hard disks in Azure are stored as page blobs in an Azure Storage account),
-(High Availability - Managed disks support 99.999% availability by storing data three times; Availability set & Availability Zones)
-Unmanaged Disks (An unmanaged disk, like a managed disk, is stored as a page blob in an Azure Storage account.),
-Throughput - Throughput measures the rate at which data can be moved onto the disk from the host computer and off the disk to the host computer. Throughput is also called data transfer rate
-(Azure Backup supports managed disks)
-)
 Exercise - Create a virtual machine
 Exercise - Sizing VMs
 Exercise - Deploy a scale set in the Azure portal 
@@ -58,7 +49,7 @@ az vm encryption enable
 Disable-AzVMDiskEncryption
 az vm encryption disable 
 New-AzResourceGroup, New-AzVm, Get-AzVM, Get-AzVmDiskEncryptionStatus, New-AzKeyVault, New-AzSnapshot,Set-AzVmDiskEncryptionExtension (to encrypt VM disks)
-Get-AzVmDiskEncryptionStatus
+Get-AzVmDiskEncryptionStatus, New-AzAvailabilitySet,New-AzVmss 
 
 Exercise - Encrypt the VM disks with Azure Disk Encryption:
 (Create Key Vault -> Update Key Vault  to support Disk Encryption --> Encrypt VM using key stored in Key Vault)
