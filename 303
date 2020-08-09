@@ -66,7 +66,17 @@ azure group deployment create
 
 >>> Implement virtual networking
  implement VNet to VNet connections
+Site to Site(Azure VPN Gateway/Express Route), VNet to VNet(Azure VPN Gateway), Vnet Peering
  implement VNet peering
+
+Create VNet
+az network vnet create \
+az vm create
+
+Configure Azure Network Peering
+az network vnet peering create \
+
+****************************************************************************
 
 
 
