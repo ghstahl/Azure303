@@ -78,13 +78,37 @@ az network vnet peering create \
 
 ****************************************************************************
 
+Implement Azure Active Directory
+ add custom domains
+ configure Azure AD Identity Protection
+ implement self-service password reset
+ implement Conditional Access including MFA
+ configure user accounts for MFA
+ configure fraud alerts
+ configure bypass options
+ configure Trusted IPs
+ configure verification methods
+ implement and manage guest accounts
+ manage multiple directories
+
+
+**************************************************************************
+Implement and manage hybrid identities
+ install and configure Azure AD Connect
+ identity synchronization options
+ configure and manage password sync and password writeback
+ configure single sign-on
+ use Azure AD Connect Health
 
 
 
-Implement and Manage Data Platforms (10-15%)
+***************************************************************************
+
+>>> Implement and Manage Data Platforms (10-15%)
 
 *********************************************************
 Implement NoSQL databases (DONE)
+
  configure storage account tables
  select appropriate CosmosDB APIs
  set up replicas in CosmosDB
