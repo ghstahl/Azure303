@@ -1,5 +1,13 @@
 
 
+>> Implement cloud infrastructure monitoring
+
+monitor cost
+o monitor spend
+o report on spend
+
+*************************************************************************
+
 >>> Implement storage accounts
  select storage account options based on a use case
  configure Azure Files and blob storage
